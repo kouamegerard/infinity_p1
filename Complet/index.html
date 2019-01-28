@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecole NaN</title>
+	<!-- Link CSS Start here -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!-- Link CSS end here -->
+
+	<!-- script JS Start here -->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- script JS end here -->
+
+
+</head>
+<body>
+
+	
+	<!-- Social network bar navigation -->
+	<section id="nav-bar-social">
+
+		<nav class="navbar navbar-expand-lg">
+			<span class="hamburger-nav" style="font-size:30px;cursor:pointer; display: none;" onclick="ouvre()">&#9776; </span>
+	      <a class="navbar-brand" href="#home"><img src="">&nbsp;Ecole NaN</a>
+
+	    <div class="collapse navbar-collapse colors" id="navbarNav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+	          </li>
+	        </ul>
+	    </div>
+    </nav>
+		
+	</section>
+	<!-- Social network bar navigation -->
+
+	<nav class="navbar bot navbar-expand-lg sticky-top">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
+    <span class="navbar-toggler-icon">&#9776;</span>
+  </button>
+  <a class="navbar-brand" href="#home"><img src="img/nan-logo.png"></a>
+
+  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+
+    	<li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Formations <span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Cursus des Moins de 25 ans</a>
+          <a class="dropdown-item" href="#">Tous Nos Modules</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Nos Projets Open-Sources</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Communautés Etudiants
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Reseau Social</a>
+          <a class="dropdown-item" href="#">Espace Chef Equipe</a>
+          <a class="dropdown-item" href="#">Espace Responsable Departement</a>
+          <a class="dropdown-item" href="#">Reservation de Imac</a>
+          <a class="dropdown-item" href="#">Espace Parrains</a>
+          <a class="dropdown-item" href="#">Espace Concours</a>
+          <a class="dropdown-item" href="#">Resultats & Classement</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Business</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Equipes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+
+    </ul>
+      <a href="" class="nav-link ml-auto" style="color: black; background-color: #00BCD4;">Je Candidate</a>
+  </div>
+</nav>
+
+
+<!-- section slider carousel -->
+  <div id="slider">
+  	<div class="overlay">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/ecl.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ecole.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/mbr-3-1620x1080.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+
+    
+  </div>
+  <!-- end section slider carousel -->
+
+  <!-- Section A -->
+  <section id="nan-section-A">
+    <div class="container">
+      <div class="row">
+        <!-- first col-md-6 -->
+        <div class="col-md-6 col-sm-12">
+          <h2>NaN Story</h2>
+          <div class="nan-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+        <!-- end first col-md-6 col-sm-12-->
+
+        <!-- Second col-md-6 col-sm-12-->
+        <div class="col-md-6 col-sm-12 ">
+          <img class="img-fluid" src="img/nanecole.jpg">
+        </div>
+        <!-- end second col-md-6 -->
+      </div>
+    </div>
+  </section>
+  <!-- End Section A -->
+
+  <!--  Section B -->
+  <section id="nan-service-section">
+    <div class="container text-center">
+      <h1>Nos Pedagogies</h1>
+      <div class="row nan-services text-center">
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-user-edit"></i>
+          </div>
+          <h3>Le Concours</h3>
+          <p>
+Pour entrer à NaN, le premier test du concours est basé sur la logique , un exercice sans énoncé, le candidat est vite amené à faire appel a son imagination, ensuite après avoir validé le test N°1.</p>
+        
+      </div>
+
+      <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-chalkboard-teacher"></i>
+            
+          </div>
+          <h3>Les Cours</h3>
+          <p>A la fin de ces deux tests, nous acceptons les meilleurs, lesquels vont apprendre 12 langages de programmations ou technologies.
+Nous leurs fournissons un accès à notre plateforme de cours et d'évaluation.</p>
+        
+      </div>
+
+      <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-microchip"></i>
+          </div>
+          <h3>Les Projets</h3>
+          <p>chaque Module est accompagné d'un terme, et ces dans ces termes qu'ils sont invités à réaliser un projet.
+exemple du mois de développement web avec le terme "tourisme", l'étudiant peut  alors développer un site web d'un restaurent ou hôtel.
+la réalisation des projets apporte des notes à l'étudiant.</p>
+        
+      </div>
+
+      <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-theater-masks"></i>
+          </div>
+          <h3>La responsabilité</h3>
+          <p>Nous pensons que responsabliser un étudiant, c'est l'amené un pas de plus dans la découverte de son Talent.
+C'est pourquoi, à NaN, dès la deuxième année, nous nommons des étudiants à la tête des projets opensource, afin qu'ils fassent des recherches et développement de solutions pour apporter de la valeur à tel où tel secteur d'activité.</p>
+        
+      </div>
+      
+    </div>
+    <p class="text-center"><button class="btn btn-primary">Lire...<b>+</b></button></p>
+  </section>
+  <!-- End section nan service -->
+
+  <!-- NaN Team section -->
+  <section id="nan-team">
+    <div class="container">
+      <h1>Our Team</h1>
+      <div class="row">
+        <div class="col-md-3 nan-team-card text-center">
+          <div class="img-box">
+            <img class="img-responsive" src="img/girl.jpg">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          <h2>Ghost Web</h2>
+          <h3>Dev, Prog, CEO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="col-md-3 nan-team-card text-center">
+          <div class="img-box">
+            <img class="img-responsive" src="img/girl.jpg">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <h2>Ghost Web</h2>
+          <h3>Dev, Prog, CEO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="col-md-3 nan-team-card text-center">
+          <div class="img-box">
+            <img class="img-responsive" src="img/girl.jpg">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <h2>Ghost Web</h2>
+          <h3>Dev, Prog, CEO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="col-md-3 nan-team-card text-center">
+          <div class="img-box">
+            <img class="img-responsive" src="img/girl.jpg">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <h2>Ghost Web</h2>
+          <h3>Dev, Prog, CEO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team section -->
+
+  <!-- promo section -->
+  <section id="nan-promo">
+    <div class="container">
+      <p>Avec NaN, devenez dévloppeur pro</p>
+      <p>Pour toutes informations et Candidature à NaN veuillez nous contacter!!!</p>
+      <a href="" class="btn btn-secondary">
+        Nous Contactez
+      </a>
+    </div>
+  </section>
+  <!-- End section prom -->
+  
+  <!--  NaN Commentaire section -->
+  <section id="nan-comment">
+    <div class="container">
+      <h1>Testimony</h1>
+      <p class="text-center">Ils nous ont fait confiance et ils sont maintenant satisfait</p>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="nan-profil">
+            <img src="img/infinty.jpeg" class="nan-partenaire">
+            <h3>Infinity Web <span>Co-Founder at Infinity Group</span></h3>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</blockquote>
+            
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="nan-profil">
+            <img src="img/infinty.jpeg" class="nan-partenaire">
+            <h3>Infinity Web <span>Co-Founder at Infinity Group</span></h3>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</blockquote>
+            
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="nan-profil">
+            <img src="img/infinty.jpeg" class="nan-partenaire">
+            <h3>Infinity Web <span>Co-Founder at Infinity Group</span></h3>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</blockquote>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End NaN Commentaire section -->
+
+  <!-- Pour plus Info Nous contacter -->
+  <section id="nan-contact">
+    <div class="container">
+      <h1>Contactez-Nous</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Entrez Votre Nom">
+            </div>
+
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="Entrez Votre Contact">
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Entrez Votre Email">
+            </div>
+
+            <div class="form-group">
+              <textarea type="text" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+            </div>
+            <div class="form-group text-right">
+              <button class="btn btn-primary" type="submit">Contactez Nous</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 nan-contact-info">
+          <div class="nan-follower">
+            <b>Address:</b> <i class="fa fa-map-marker"></i> Ghost Web Road, NaN School City, NaNC.
+          </div>
+
+          <div class="nan-follower">
+            <b>Telephone: </b><i class="fa fa-phone"></i> (+225) xx xx xx xx / xx xx xx
+          </div>
+
+          <div class="nan-follower">
+            <b>Email:</b> <i class="fa fa-envelope"></i> ghostweb@gmail.com
+          </div>
+
+          <!-- <div class="nan-follower">
+            <b>Address:</b>Ghost Web Road, NaN School City, NaNC.
+          </div> -->
+
+          <div class="nan-follower social-net">
+            <b>Social Network:</b>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End NaN Contact section -->
+  <!-- nan footer section -->
+  <section id="nan-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center"><p>Copyright &copy;, Tout Droit Reservé à <i style="color: lightblue">NaN</i></p></div>
+        <div class="col-md-4 text-center"><p>Prendre connaissance de notre <a href="" style="text-decoration: none!important;">Charte de Bonne Conduite</a></p></div>
+        <div class="col-md-4 footer-social text-center">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+<!-- <div id="hamburger" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="ferme()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div> -->
+
+<!-- <div class="col-sm-3 col-md-2 sidebar sidenav" id="hamburger">
+  <ul class="nav nav-sidebar">
+    <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+    <li><a href="#">Reports</a></li>
+    <li><a href="#">Analytics</a></li>
+    <li><a href="#">Export</a></li>
+  </ul>
+  <ul class="nav nav-sidebar">
+    <li><a href="">Nav item</a></li>
+    <li><a href="">Nav item again</a></li>
+    <li><a href="">One more nav</a></li>
+    <li><a href="">Another nav item</a></li>
+    <li><a href="">More navigation</a></li>
+  </ul>
+  <ul class="nav nav-sidebar">
+    <li><a href="">Nav item again</a></li>
+    <li><a href="">One more nav</a></li>
+    <li><a href="">Another nav item</a></li>
+  </ul>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function ouvre() {
+    document.getElementById("hamburger").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function ferme() {
+    document.getElementById("hamburger").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+</body>
+</html>
